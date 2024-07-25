@@ -1,5 +1,6 @@
-## 깃헙 액션 워크플로우
+## 프론트엔드 CI/CD 파이프라인
 
+## 개요
 1. 깃헙 액션은 main 브랜치에서 푸시가 발생할때 일어난다.
 2. 저장소 체크아웃
 3. 의존성 패키지 인스톨.
@@ -16,3 +17,7 @@
 - `이러한 이유들 때문에 캐시무효화는 새로운 파일 동기화 이후에 무효화 된다.`
 
 <img width="944" alt="스크린샷 2024-07-25 오전 12 12 14" src="https://github.com/user-attachments/assets/616b9bcc-4e7e-4768-bbf7-854d9aee8166">
+
+## 주요 링크
+- S3 버킷 웹사이트 엔드포인트: [http://hanghae-ci-cd-test.s3-website.ap-northeast-2.amazonaws.com](http://hanghae-ci-cd-test.s3-website.ap-northeast-2.amazonaws.com)
+- CloudFrount 배포 도메인 이름: [https://dxr0c45o9qatc.cloudfront.net](https://dxr0c45o9qatc.cloudfront.net)
